@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- My CSS & Fonts -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my-4">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Category
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Masakan Tionghoa</a></li>
+                <li><a class="dropdown-item" href="#">Quick Bites</a></li>
+                <li><a class="dropdown-item" href="#">Roti & Kue</a></li>
+                <li><a class="dropdown-item" href="#">Fried Chicken</a></li>
+                <li><a class="dropdown-item" href="#">Bubble Tea</a></li>
+                <li><a class="dropdown-item" href="#">Kopi</a></li>
+                <li><a class="dropdown-item" href="#">Susu</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Cari Lainnya</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="" width="25" class="d-inline-block align-text-top">
+            Resto
+          </a>
+  
+          <ul class="navbar-nav">
+            <form class="d-flex box-search align-items-center">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <input type="search" placeholder="Search your favorite food" aria-label="Search">
+            </form>
+            <li class="nav-item">
+              <a class="btn sign-button" href="#">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 d-flex">
+            <img src="img/1.png" alt="img" class="ms-5 me-4">
+            <img src="img/2.png" alt="img"> 
+          </div>
+          <div class="col-lg-11">
+            <div class="card">
+              <div class="card-body">
+                <div class="rating">
+                  <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                  <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                  <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                  <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                  <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                  <span class="text-warning fw-bold">5.0</span>
+                  <span class="text-secondary">(5.2k+)</span>
+                </div>
+                <h5 class="card-title fw-bold mt-2">Padang Restaurant</h5>
+                <h6 class="card-subtitle text-muted fw-bold mt-2">IDR 49.999 - IDR 560.000</h6>
+                <p class="card-text text-muted mt-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Padang, Indonesia</p>
+                
+                <a href="#" class="btn btn-orange mt-2">Make Reservation<i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+                <p class="card-text text-muted mt-2"><i class="fa fa-info info" aria-hidden="true"></i> No extra cast</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why Us -->
+    <section class="whyus" id="whyus">
+      <div class="container">
+        <div class="row text-center headline">
+          <p class="descriptionHeadline">Special Benefit For You</p>
+          <h4>Why Should Choose Us</h4>
+        </div>
+        <div class="row justify-content-center text-center card-list mt-5">
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body mb-4">
+                <img src="img/discount.png" alt="img" >
+                <h5 class="fw-bold mt-4">Extra Discounts</h5>
+                <p class="text-muted">Get your special discount by using our reservation</p>
+              </div>
+              <a href="#" class="active">View Details <i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body mb-4">
+                <img src="img/eat.png" alt="img" >
+                <h5 class="fw-bold mt-4">Come and Eat</h5>
+                <p class="text-muted">Get your own table quickly & without waiting in line</p>
+              </div>
+              <a href="#">View Details <i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body mb-4">
+                <img src="img/money.png" alt="img">
+                <h5 class="fw-bold mt-4">No Extra Fee</h5>
+                <p class="text-muted">Get tax free if you want to order food and make a reservation</p>
+              </div>
+              <a href="#">View Details <i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body mb-4">
+                <img src="img/stars.png" alt="img" >
+                <h5 class="fw-bold mt-4">Guaranteed Cleanliness</h5>
+                <p class="text-muted">We ensure the cleanliness of the place as well as the food</p>
+              </div>
+              <a href="#">View Details <i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    
+    <!-- Populer Restaurant -->
+    <section class="populerRestaurant overflow-hidden" id="populerRestaurant">
+      <div class="container pe-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-4">
+            <p class="descriptionHeadline">Top 3 Featured Restaurant</p>
+            <h4>Most Popular Restaurants</h4>
+            <p class="text-muted">
+              The best restaurant in our opinion is how much customers like it in terms of place, price, comfort and of course the taste of the food itself.
+            </p>
+            <a href="#" class="btn mt-4">Make Reservation<i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-lg-8 d-flex">
+            <img src="img/1_restaurant.png" alt="img" class="me-3">
+            <img src="img/2_restaurant.png" alt="img" class="me-3">
+            <img src="img/3_restaurant.png" alt="img">
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <div class="column-1">
+                  <div class="rating">
+                    <i class="fa fa-star text-warning fw-bold" aria-hidden="true"></i>
+                    <span class="text-warning">5.0</span>
+                    <span class="text-secondary">(7.6K+)</span>
+                  </div>
+                  <h5 class="card-title fw-bold mt-2">Bind Balorant</h5>
+                  <p class="card-text text-muted mt-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Padang, Indonesia</p>
+                </div>
+                <div class="column-2">
+                  <a href="#" class="btn btn-orange mt-2"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Restaurantbased -->
+    <section class="restaurantbased" id="restaurantbased">
+      <div class="container">
+        <div class="row headline">
+          <div class="col-lg-6">
+            <p class="descriptionHeadline">Restaurant Based By City</p>
+            <h4>Restaurant Near You</h4>
+          </div>
+          <div class="col-lg-6 text-end">
+            <div class="dropdown p-4">
+              <a class="btn btn-light text-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-map-marker" aria-hidden="true"></i> Jakarta, Indonesia
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+              </a>
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item text-muted" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Surabaya, Indonesia</a></li>
+                <li><a class="dropdown-item text-muted" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Sidoarjo, Indonesia</a></li>
+                <li><a class="dropdown-item text-muted" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Padang, Indonesia</a></li>
+                <li><a class="dropdown-item text-muted" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Palembang, Indonesia</a></li>
+                <li><a class="dropdown-item text-muted" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Yogyakarta, Indonesia</a></li>
+                <li><a class="dropdown-item text-muted" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Makassar, Indonesia</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-muted" href="#">Kota Lainnya</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3 justify-content-center">
+
+          <div class="col-lg-4 d-flex flex-column justify-content-center pe-5 position-relative">
+            <img src="img/1_based_restaurant.png" alt="img">
+            <div class="card">
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <div class="column-1">
+                  <div class="rating">
+                    <i class="fa fa-star text-warning fw-bold" aria-hidden="true"></i>
+                    <span class="text-warning">5.0</span>
+                    <span class="text-secondary">(6.6K+)</span>
+                  </div>
+                  <h5 class="card-title fw-bold mt-2">Batavia Restaurant</h5>
+                  <h6 class="card-subtitle text-muted fw-bold mt-2">IDR 29.000 - IDR 259.999</h6>
+                </div>
+                <div class="column-2">
+                  <a href="#" class="btn btn-orange mt-2"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex flex-column justify-content-center pe-5 position-relative">
+            <img src="img/2_based_restaurant.png" alt="img">
+            <div class="card">
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <div class="column-1">
+                  <div class="rating">
+                    <i class="fa fa-star text-warning fw-bold" aria-hidden="true"></i>
+                    <span class="text-warning">5.0</span>
+                    <span class="text-secondary">(3.6K+)</span>
+                  </div>
+                  <h5 class="card-title fw-bold mt-2">Split Ascent Restaurant</h5>
+                  <h6 class="card-subtitle text-muted fw-bold mt-2">IDR 49.999 - IDR 560.000</h6>
+                </div>
+                <div class="column-2">
+                  <a href="#" class="btn btn-orange mt-2"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex flex-column justify-content-center pe-5 position-relative">
+            <img src="img/3_based_restaurant.png" alt="img">
+            <div class="card">
+              <div class="card-body d-flex justify-content-between align-items-center">
+                <div class="column-1">
+                  <div class="rating">
+                    <i class="fa fa-star text-warning fw-bold" aria-hidden="true"></i>
+                    <span class="text-warning">5.0</span>
+                    <span class="text-secondary">(11K+)</span>
+                  </div>
+                  <h5 class="card-title fw-bold mt-2">Daza Fracture Restaurant</h5>
+                  <h6 class="card-subtitle text-muted fw-bold mt-2">IDR 29.999 - IDR 560.000</h6>
+                </div>
+                <div class="column-2">
+                  <a href="#" class="btn btn-orange mt-2"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn-orange mt-5">View All Restaurant<i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expert Chest -->
+    <section class="expertchest" id="expertchest">
+      <div class="container">
+        <div class="row headline">
+          <div class="col-lg-6 ps-5 position-relative">
+            <div class="card card-1">
+              <div class="card-body mb-4 text-center">
+                <img src="img/safety.png" alt="img" >
+                <h5 class="fw-bold mt-4">12 Years</h5>
+                <p class="text-muted">Experince</p>
+              </div>
+            </div>
+            <img src="img/chef.png" alt="img" width="465">
+            <div class="card card-2">
+              <div class="card-body mb-4 d-flex align-items-center">
+                <div class="col-4">
+                  <img src="img/1_expert_chef.png" alt="img">
+                </div>
+                <div class="col-8 ms-4">
+                  <p class="text-muted">Chef at restaurant : </p>
+                  <h5 class="fw-bold mb-3">Pearl Dolphin</h5>
+                  <a href="#" class="text-warning text-decoration-none">View Details<i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="descriptionHeadline">Top 4 expert chef</p>
+            <h4>Expert Chefs In Fuddy</h4>
+
+            <div class="row ms-2 mt-5">
+              <div class="col-lg-6">
+                <ul class="list-unstyled">
+
+                  <li class="mb-5">
+                    <p class="text-uppercase text-muted foodname">Pizza</p>
+                    <h5>Phoenix Satcheup</h5>
+                    <p class="text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i> Jakarta, Indonesia</p>
+                  </li>
+                  <li class="mb-5">
+                    <p class="text-uppercase text-muted foodname">Vegan</p>
+                    <h5>Chamber Botfrag</h5>
+                    <p class="text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i> Bandung, Indonesia</p>
+                  </li>
+                  <li class="mb-5">
+                    <p class="text-uppercase text-muted foodname">Roast Chicken</p>
+                    <h5>Asep Vandal</h5>
+                    <p class="text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i> Sunda, Indonesia</p>
+                  </li>
+                  <li class="mb-5">
+                    <p class="text-uppercase text-muted foodname">Beef Steak</p>
+                    <h5>I Made Invoker</h5>
+                    <p class="text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i> Bali, Indonesia</p>
+                  </li>
+                  
+                </ul>
+                <a href="#" class="btn btn-orange mt-5">View All Chef<i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+              </div>
+              <div class="col-lg-6">
+                <a href="#" class="text-warning text-decoration-none">Profile Details<i class="fa fa-angle-right ms-2" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

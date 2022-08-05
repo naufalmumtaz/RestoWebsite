@@ -1,0 +1,296 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap');
+
+// Variable
+$primaryColor: #FDC886;
+$secondaryColor: #5A4FCF;
+$gray: #232631;
+
+// Mixin
+@mixin tombol {
+    background-color: $primaryColor;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 12px;
+    border-radius: 0.5em;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 210em;
+}
+
+// Navbar
+.navbar {
+    .nav-link {
+        color: $gray !important;
+        font-weight: 500;
+        margin-right: 1.5em;
+    }
+    .active::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid $secondaryColor;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .navbar-brand {
+        color: $gray !important;
+        font-weight: 700;
+        font-family: 'Nunito', sans-serif;
+    }
+    .dropdown-toggle::after {
+        display: none;
+    }
+    .box-search {
+        width: 20em;
+        height: 2.5em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        padding: 10px;
+        i {
+            font-size: 1rem;
+            padding-right: 0.5em;
+            color: #858585;
+        }
+        input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+        }
+    }
+    .sign-button {
+        background-color: #EBEAF7;
+        color: darken($secondaryColor, 10%);
+        font-weight: 600;
+        border-radius: 0.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+}
+
+section {
+    margin-top: 10em;
+}
+
+.jumbotron {
+    overflow-x: hidden;
+    .btn-orange {
+        @include tombol();
+    }
+    .container {
+        img {
+            width: 80%;
+            border-radius: 1em;
+        }
+        .info {
+            border: 1px solid #6C757D;
+            border-radius: 0.2em;
+            width: 1.8em;
+            font-size: 0.8rem;
+            text-align: center;
+            padding: 4px;
+            margin-right: 0.2em;
+        }
+        .card {
+            margin-top: -20em;
+            border-radius: 1em;
+            width: 25em;
+        }
+    }
+}
+
+.whyus {
+    .headline {
+        .descriptionHeadline {
+            color: $secondaryColor;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        h4 {
+            color: $gray;
+            font-weight: 600;
+        }
+    }
+    .card-list {
+        p {
+            width: 80%;
+            margin: auto;
+        }
+        .card {
+            border: none;
+            
+            p, h5 {
+                width: 110%;
+            }
+
+            a {
+                background-color: white;
+                color: $gray;
+                text-decoration: none;
+                font-weight: 600;
+                padding: 1.3em 1em;
+                border-radius: 12px 12px 25px 25px;
+            }
+            a.active {
+                background-color: $primaryColor !important;
+            }
+        }
+    }
+}
+
+.populerRestaurant {
+    .descriptionHeadline {
+        color: $secondaryColor;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    h4 {
+        color: $gray;
+        font-weight: 600;
+    }
+    a {
+        @include tombol();
+    }
+    img {
+        width: 30%;
+    }
+    img:nth-child(1)
+    {
+        width: 48%;
+    }
+    .card {
+        border-radius: 1em;
+        width: 85%;
+        margin: auto;
+        margin-top: -10em;
+    }
+    .btn-orange {
+        @include tombol();
+        width: 2.5em;
+        height: 2.5em;
+        line-height: 0em;
+        color: $gray;
+        border-radius: 0.8em;
+    }
+}
+
+.restaurantbased {
+    .descriptionHeadline {
+        color: $secondaryColor;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    h4 {
+        color: $gray;
+        font-weight: 600;
+    }
+    .dropdown-toggle::after {
+        display: none;
+    }
+    img {
+        border-radius: 2em;
+        width: 110%;
+    }
+    .btn-orange {
+        @include tombol();
+        width: 13em;
+        height: 3.5em;
+    }
+    .col-lg-4 {
+        .btn-orange {
+            @include tombol();
+            width: 2.5em;
+            height: 2.5em;
+            line-height: 0em;
+            color: $gray;
+            border-radius: 0.8em;
+        }
+        h5 {
+            font-size: 1rem;
+        }
+    }
+    .card {
+        position: absolute;
+        width: 80%;
+        left: 35px;
+        bottom: 20px;
+        border-radius: 1em;
+    }
+}
+
+.expertchest {
+    .descriptionHeadline {
+        color: $secondaryColor;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    h4 {
+        color: $gray;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    .foodname {
+        margin-bottom: 2px;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    img {
+        border-radius: 1.5em;
+    }
+    .btn-orange {
+        @include tombol();
+    }
+    p {
+        width: 80%;
+    }
+    .card-1 {
+        border: none;
+        width: 30%;
+        margin-left: auto;
+        border-radius: 1.5em;
+        position: absolute;
+        top: 2em;
+        right: 0.2em;
+
+        h5 {
+            margin-bottom: 0px;
+            font-weight: 800;
+        }
+        p {
+            margin: auto;
+        }
+    }
+    .card-2 {
+        border: none;
+        width: 50%;
+        margin-left: auto;
+        border-radius: 1.5em;
+        position: absolute;
+        bottom: 2em;
+        left: 0.2em;
+
+        p {
+            font-size: 0.8rem;
+        }
+        h5 {
+            font-weight: 800;
+            margin-top: -1em;
+        }
+        a {
+            font-size: 0.9rem;
+        }
+    }
+}
+    
+
+
+
+

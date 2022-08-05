@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 210em;
+}
+
+.navbar .nav-link {
+  color: #232631 !important;
+  font-weight: 500;
+  margin-right: 1.5em;
+}
+.navbar .active::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #5A4FCF;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+.navbar .navbar-brand {
+  color: #232631 !important;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+.navbar .box-search {
+  width: 20em;
+  height: 2.5em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 10px;
+}
+.navbar .box-search i {
+  font-size: 1rem;
+  padding-right: 0.5em;
+  color: #858585;
+}
+.navbar .box-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.navbar .sign-button {
+  background-color: #EBEAF7;
+  color: #3e32b9;
+  font-weight: 600;
+  border-radius: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+section {
+  margin-top: 10em;
+}
+
+.jumbotron {
+  overflow-x: hidden;
+}
+.jumbotron .btn-orange {
+  background-color: #FDC886;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px;
+  border-radius: 0.5em;
+}
+.jumbotron .container img {
+  width: 80%;
+  border-radius: 1em;
+}
+.jumbotron .container .info {
+  border: 1px solid #6C757D;
+  border-radius: 0.2em;
+  width: 1.8em;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 4px;
+  margin-right: 0.2em;
+}
+.jumbotron .container .card {
+  margin-top: -20em;
+  border-radius: 1em;
+  width: 25em;
+}
+
+.whyus .headline .descriptionHeadline {
+  color: #5A4FCF;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.whyus .headline h4 {
+  color: #232631;
+  font-weight: 600;
+}
+.whyus .card-list p {
+  width: 80%;
+  margin: auto;
+}
+.whyus .card-list .card {
+  border: none;
+}
+.whyus .card-list .card p, .whyus .card-list .card h5 {
+  width: 110%;
+}
+.whyus .card-list .card a {
+  background-color: white;
+  color: #232631;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1.3em 1em;
+  border-radius: 12px 12px 25px 25px;
+}
+.whyus .card-list .card a.active {
+  background-color: #FDC886 !important;
+}
+
+.populerRestaurant .descriptionHeadline {
+  color: #5A4FCF;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.populerRestaurant h4 {
+  color: #232631;
+  font-weight: 600;
+}
+.populerRestaurant a {
+  background-color: #FDC886;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px;
+  border-radius: 0.5em;
+}
+.populerRestaurant img {
+  width: 30%;
+}
+.populerRestaurant img:nth-child(1) {
+  width: 48%;
+}
+.populerRestaurant .card {
+  border-radius: 1em;
+  width: 85%;
+  margin: auto;
+  margin-top: -10em;
+}
+.populerRestaurant .btn-orange {
+  background-color: #FDC886;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px;
+  border-radius: 0.5em;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 0em;
+  color: #232631;
+  border-radius: 0.8em;
+}
+
+.restaurantbased .descriptionHeadline {
+  color: #5A4FCF;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.restaurantbased h4 {
+  color: #232631;
+  font-weight: 600;
+}
+.restaurantbased .dropdown-toggle::after {
+  display: none;
+}
+.restaurantbased img {
+  border-radius: 2em;
+  width: 110%;
+}
+.restaurantbased .btn-orange {
+  background-color: #FDC886;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px;
+  border-radius: 0.5em;
+  width: 13em;
+  height: 3.5em;
+}
+.restaurantbased .col-lg-4 .btn-orange {
+  background-color: #FDC886;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px;
+  border-radius: 0.5em;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 0em;
+  color: #232631;
+  border-radius: 0.8em;
+}
+.restaurantbased .col-lg-4 h5 {
+  font-size: 1rem;
+}
+.restaurantbased .card {
+  position: absolute;
+  width: 80%;
+  left: 35px;
+  bottom: 20px;
+  border-radius: 1em;
+}
+
+.expertchest .descriptionHeadline {
+  color: #5A4FCF;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.expertchest h4 {
+  color: #232631;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.expertchest h5 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+.expertchest .foodname {
+  margin-bottom: 2px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.expertchest img {
+  border-radius: 1.5em;
+}
+.expertchest .btn-orange {
+  background-color: #FDC886;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px;
+  border-radius: 0.5em;
+}
+.expertchest p {
+  width: 80%;
+}
+.expertchest .card-1 {
+  border: none;
+  width: 30%;
+  margin-left: auto;
+  border-radius: 1.5em;
+  position: absolute;
+  top: 2em;
+  right: 0.2em;
+}
+.expertchest .card-1 h5 {
+  margin-bottom: 0px;
+  font-weight: 800;
+}
+.expertchest .card-1 p {
+  margin: auto;
+}
+.expertchest .card-2 {
+  border: none;
+  width: 50%;
+  margin-left: auto;
+  border-radius: 1.5em;
+  position: absolute;
+  bottom: 2em;
+  left: 0.2em;
+}
+.expertchest .card-2 p {
+  font-size: 0.8rem;
+}
+.expertchest .card-2 h5 {
+  font-weight: 800;
+  margin-top: -1em;
+}
+.expertchest .card-2 a {
+  font-size: 0.9rem;
+}/*# sourceMappingURL=main.css.map */
